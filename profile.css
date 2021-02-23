@@ -1,0 +1,124 @@
+:root{
+    color: black;
+    font-family: MS Sans Serif;
+}
+
+body, footer { 
+    background-color: #fedde8;   
+}
+
+body {
+    background-color: #008282;
+   /* 
+    Use this instead background-color if you want to add one background image
+    background-image: url();
+    */
+}
+
+main {
+    background-color: #008282; 
+}
+
+a {
+    color: #d64276;
+}
+
+a:hover {
+    color: #983a5c;
+}
+
+.profile .blurbs .heading, .profile .friends .heading,
+.w-40 .contact .heading, .w-40 .table-section .heading {
+    margin: 2px;
+    background-color: #000082;
+    color: white;
+    padding: 2px 7px;
+}
+
+.blurbs, .friends,
+.w-40 .contact, .w-40 .table-section , .w-40 .url-info{
+    border: 2px solid ;
+    border-color: #fff  #000 #000 #fff ;
+    background-color: #c3c3c3;
+    color: black;
+    margin: 5px 0;
+}
+
+.details-table td:first-child {
+    background: #7f7f7f;
+    color: black;
+    font-weight: bold;
+    width: 33%;
+}
+
+.online, .count {
+    color: #ffff00;
+}
+
+nav .top {
+    background: #983a5c;
+}
+
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: black;
+}
+
+.comments-table {
+    border: none;
+}
+
+
+.comments-table td {
+    border: solid;
+    border-left: none;
+    border-color: #7f7f7f #fff #fff #7f7f7f ;   
+    background-color: #bfbfbf;
+     
+}
+.comments-table td:first-child {
+    border: solid;
+    border-right: none;
+    border-color: #7f7f7f #fff #fff #7f7f7f ;   
+    background-color: #bfbfbf;
+}
+
+.comment-replies {
+    border: none;
+}
+
+button:hover {
+    border: solid;
+    border-color: #7f7f7f #fff #fff #7f7f7f ;   
+    background-color: #bfbfbf;
+}
+
+button {
+    border:solid ;
+    border-color: #fff  #000 #000 #fff ;
+    background-color: #c3c3c3;
+    color: black;
+}
+
+button:focus {
+    border: solid;
+    border-color: #7f7f7f #fff #fff #7f7f7f ;   
+    background-color: #000082;
+    color: white;
+}
+
+.profile .friends .person p {
+    color: #666666;
+    font-weight: bold;
+    word-break: break-word;
+    font-size: 85%;
+    text-align: left;
+    margin-left: 5px;
+}
+.profile-pic img {
+    border:solid ;
+    border-color: #fff  #000 #000 #fff ;
+    background-color: #c3c3c3;
+    padding: 5px;
+    
+}
