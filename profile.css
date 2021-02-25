@@ -1,18 +1,21 @@
+<!-- (c) Layout created by TheTrash (https://layouts.spacehey.com/layout?id=2016) -->
+
+<style>
+
 :root{
     color: black;
     font-family: MS Sans Serif;
 }
 
-body, footer { 
-    background-color: #fedde8;   
+body { 
+    background-color: #fedde8;
+    /* Use this if you want to add one background image 
+    background-image: url("< your url here >");
+    */
 }
 
-body {
-    background-color: #008282;
-   /* 
-    Use this instead background-color if you want to add one background image
-    background-image: url();
-    */
+footer {
+    background-color: transparent;
 }
 
 main {
@@ -27,9 +30,27 @@ a:hover {
     color: #983a5c;
 }
 
+
+.profile .friends .person p {
+    color: #666666;
+    font-weight: bold;
+    word-break: break-word;
+    font-size: 85%;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.profile-pic img {
+    border:solid ;
+    border-color: #fff  #000 #000 #fff ;
+    background-color: #c3c3c3;
+    padding: 5px;
+}
+
 .profile .blurbs .heading, .profile .friends .heading,
 .w-40 .contact .heading, .w-40 .table-section .heading {
     margin: 2px;
+    margin-bottom: 5px;
     background-color: #000082;
     color: white;
     padding: 2px 7px;
@@ -44,6 +65,20 @@ a:hover {
     margin: 5px 0;
 }
 
+.blurbs {
+    background-color: #c3c3c3;
+    padding: 0 5px 5px 5px;
+}
+
+.profile .blurbs .inner {
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: white;
+    height: 300px;
+    overflow: auto;
+}
+
+
 .details-table td:first-child {
     background: #7f7f7f;
     color: black;
@@ -54,6 +89,7 @@ a:hover {
 .online, .count {
     color: #ffff00;
 }
+
 
 nav .top {
     background: #983a5c;
@@ -94,7 +130,7 @@ button:hover {
 }
 
 button {
-    border:solid ;
+    border: solid;
     border-color: #fff  #000 #000 #fff ;
     background-color: #c3c3c3;
     color: black;
@@ -107,18 +143,43 @@ button:focus {
     color: white;
 }
 
-.profile .friends .person p {
-    color: #666666;
-    font-weight: bold;
-    word-break: break-word;
-    font-size: 85%;
-    text-align: left;
-    margin-left: 5px;
+/* width */
+::-webkit-scrollbar {
+  width: 18px;
 }
-.profile-pic img {
-    border:solid ;
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: #e2e2e2;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border: solid;
     border-color: #fff  #000 #000 #fff ;
-    background-color: #c3c3c3;
-    padding: 5px;
-    
+    background-color: #bfbfbf;
 }
+
+
+::-webkit-scrollbar-button:single-button:vertical {
+    height: 15px;
+    width: 15px;
+    background-position: center;
+    background-color: #bfbfbf;
+    background-size: 10px;
+    background-repeat: no-repeat;
+    display: block;
+
+    border: solid;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+    border-color: #fff #000 #000 #fff ;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='rgb(0,0,0)'><polygon points='50,00 0,50 100,50'/>");
+}
+::-webkit-scrollbar-button:single-button:vertical:increment {
+    border-color: #fff #000 #000 #fff ;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='rgb(0,0,0)'><polygon points='0,0 100,0 50,50'/>");
+}
+
+</style>
